@@ -11,7 +11,7 @@ public class ConnectionFactory {
 		Connection conexao = null;
 		
 		try {
-			conexao = DriverManager.getConnection(stringDeconexao, usuario, senha); // cria a conex„o
+			conexao = DriverManager.getConnection(stringDeconexao, usuario, senha); // cria a conex√£o com o banco de dados postgresql
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
