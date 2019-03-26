@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class ConnectionFactory {
 	public static Connection createConnection() {
-		String stringDeconexao = "jdbc:postgresql://localhost:5432/aula-de-web";//url do driver jdbc
+		String stringDeconexao = "jdbc:postgresql://localhost:5432/aula-de-web";//url do driver jdbc do postgresql
 		String usuario = "postgres";
 		String senha = "@901256";
 		Connection conexao = null;
