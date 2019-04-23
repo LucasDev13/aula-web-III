@@ -5,15 +5,9 @@ import java.sql.PreparedStatement;
 
 import javax.swing.JOptionPane;
 
-/**
- * 
- * @author Harmfull
- *
- */
 public class InsereManuscrito {
 	
 	public static void main(String[] args) {
-		
 		try {
 			//abrindo a conexao
 			//ConnectionFactory - minha classe de conexao
